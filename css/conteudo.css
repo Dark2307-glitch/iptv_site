@@ -1,0 +1,168 @@
+.container_imagem_conteudo_tv{
+    height: 150px;
+    animation: lightSpeedInRight;
+    animation-duration: 1s;
+    
+}
+
+.container_conteudo_tv:hover .container_imagem_conteudo_tv{
+    animation: tada;
+    animation-duration: 2s;
+}
+
+.container_imagem_conteudo_filme{
+    height: 150px;
+    animation: lightSpeedInRight;
+    animation-duration: 1s;
+}
+
+.container_conteudo_filme:hover .container_imagem_conteudo_filme{
+    animation: tada;
+    animation-duration: 2s;
+}
+
+
+.container_imagem_conteudo_serie{
+    height: 150px;
+    animation: lightSpeedInRight;
+    animation-duration: 1s;
+}
+
+.container_conteudo_filme{
+    position: absolute;
+    margin-top: 7em;
+    margin-left: 5em;
+    padding: 4em;
+    width: 30em;
+    border-radius: 10px;
+    background:linear-gradient(360deg, rgb(1, 74, 111) 0%, rgb(41, 179, 249) 35%, rgb(114, 207, 253) 100%);
+    border: none;
+}
+
+.container_conteudo_filme:hover{
+    background:linear-gradient(360deg, rgb(77, 159, 200) 0%, rgb(58, 142, 184) 35%, rgb(227, 229, 231) 100%);
+    color: white;
+}
+
+.container_conteudo_tv{
+    margin:7em 0 0 6em;
+    padding: 16em;
+    background:linear-gradient(360deg, rgb(23, 153, 0) 0%, rgb(15, 118, 15) 35%, rgba(120,255,0,1) 100%);
+    border: none;
+    border-radius: 10px;
+}
+
+.container_conteudo_tv:hover{
+    background:linear-gradient(360deg, rgba(120,255,0,1) 0%, rgb(23, 153, 0) 35%, rgb(15, 118, 15) 100%);
+    color: white;
+}
+
+.container_titulo_conteudo{
+    font-size: 20px;
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
+    animation: lightSpeedInRight;
+    animation-duration: 1s;
+}
+
+.container_titulo_filme{
+    font-size: 20px;
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
+    animation: lightSpeedInRight;
+    animation-duration: 1s;
+}
+
+.container_titulo_serie{
+    font-size: 20px;
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
+    animation: lightSpeedInRight;
+    animation-duration: 1s;
+}
+
+.container_conteudo_serie{
+    position: absolute;
+    margin-top: 7em;
+    margin-left:40em;
+    padding: 4em;
+    width: 30em;
+    border-radius: 10px;
+    background:linear-gradient(360deg, rgb(124, 0, 0) 0%, rgb(173, 0, 0) 35%, rgb(150, 0, 0) 100%);
+    border: none;
+}
+
+.container_conteudo_serie:hover{
+    background:linear-gradient(360deg, rgb(71, 0, 0) 0%, rgb(123, 1, 1)35%, rgb(96, 0, 0) 100%);
+    color: white;
+    
+}
+.container_conteudo_serie:hover .container_imagem_conteudo_serie{
+    animation: tada;
+    animation-duration: 2s;
+    
+}
+
+.container_conteudo_livewith{
+    position: absolute;
+    margin-top: 39em;
+    margin-left: 6em;
+    padding: 4em;
+    width: 30em;
+    border-radius: 10px;
+    background:linear-gradient(360deg, rgb(0, 87, 249) 0%, rgb(1, 72, 154) 35%, rgb(0, 54, 82) 100%);
+    border: none;
+}
+
+.container_conteudo_livewith:hover{
+    background:linear-gradient(360deg, rgb(30, 86, 192) 0%, rgb(15, 86, 168) 35%, rgb(2, 117, 175) 100%);
+    color: white;
+}
+
+
+.container_imagem_conteudo_livewith{
+    height: 40px;
+    animation: lightSpeedInRight;
+    animation-duration: 1s;
+}
+.container_conteudo_livewith:hover .container_imagem_conteudo_livewith{
+    animation: tada;
+    animation-duration: 2s;
+}
+
+
+.container_titulo_livewith{
+    font-size: 20px;
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
+    animation: lightSpeedInRight;
+    animation-duration: 1s;
+}
+
+.container_conteudo_square{
+    position: absolute;
+    margin-top: 39em;
+    margin-left: 40em;
+    padding: 4em;
+    width: 30em;
+    border-radius: 10px;
+    background:linear-gradient(360deg, rgba(120,255,0,1) 0%, rgb(23, 153, 0) 35%, rgb(15, 118, 15) 100%);
+    border: none;
+}
+
+.container_conteudo_square:hover{
+    background:linear-gradient(360deg, rgb(23, 153, 0) 0%, rgb(15, 118, 15) 35%, rgba(120,255,0,1) 100%);
+    color: white;
+}
+
+
+.container_conteudo_square:hover .container_imagem_conteudo_square{
+    animation: tada;
+    animation-duration: 2s ;
+}
+
+.container_imagem_conteudo_square{
+    height:68px;
+    animation: lightSpeedInRight;
+    animation-duration: 1s;
+}

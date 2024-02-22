@@ -1,0 +1,69 @@
+.container_logo{
+    background-color: whitesmoke;
+    height: 90px;
+    justify-content: space-between;
+    animation: flipInX;
+    animation-duration: 0.5s;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-style:normal;
+    font-weight: 400;
+}
+
+.container_logo_topo{
+    height: 6em;
+    position: absolute;
+    animation:zoomInUp;
+    animation-duration:1s;
+}
+
+.container_lista{
+    display: flex;
+    margin-left: 10em;
+    justify-content: space-around;
+}
+
+.lista_topo{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 1rem;
+    font-size: 18px;
+    margin-top: 2em;
+    
+}
+
+.container_lista_topo_link{
+    text-decoration: none;
+    color: black;
+    
+}
+
+.container_lista_topo_link:hover{
+    font-size: 14px;
+}
+
+.entrar{
+    animation:zoomInUp;
+    animation-duration:1s;
+}
+
+.cad{
+    animation:zoomInUp;
+    animation-duration:2s;
+}
+
+.sobre{
+    animation:zoomInUp;
+    animation-duration:3s;
+}
+
+.assinatura{
+    animation:zoomInUp;
+    animation-duration:4s;
+}
+
+.produtos{
+    animation:zoomInUp;
+    animation-duration:5s;
+}
+
